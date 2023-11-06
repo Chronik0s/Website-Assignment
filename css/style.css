@@ -1,0 +1,35 @@
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 20px;
+  padding: 20px;
+}
+
+.feature {
+  background-image: url(../Images/SmashUltimate.jpg);
+  background-size: 100%;
+  background-position: center;
+  text-align: center;
+  text-shadow: #000000 3px 3px;
+  color: rgb(0, 255, 242);
+}
+
+@media screen and (max-width: 600px) {
+
+  .feature {
+    background-image: url(../Images/SmashUltimate.jpg);
+    background-size: 100%;
+    background-position: center;
+    text-align: center;
+    text-shadow: #000000 3px 3px;
+  }
+
+  body {
+    background-color: teal;
+    color: white;
+    text-align: center;
+
+
+  }
